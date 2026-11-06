@@ -1,0 +1,7 @@
+group_column,group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+administration,Interviewer administered,nps,Net Promoter Score,points,321,47.8419601632,253.7688132335,True,valid_nps
+administration,Interviewer administered,overall_top2,Airport overall: rating 4 or 5,percent,319,88.1635250523,255.9796608498,True,valid_Q7ALL
+administration,Interviewer administered,problem_rate,Reported a problem,percent,323,10.2454091383,260.2427349872,True,valid_problem
+administration,Self administered,nps,Net Promoter Score,points,2329,33.2353145985,1882.4317956513,True,valid_nps
+administration,Self administered,overall_top2,Airport overall: rating 4 or 5,percent,2306,79.3424470741,1874.1450283957,True,valid_Q7ALL
+administration,Self administered,problem_rate,Reported a problem,percent,2293,13.2812942639,1850.5952792780,True,valid_problem

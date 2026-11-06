@@ -1,0 +1,675 @@
+field_or_section,question_or_code,answer_label
+Field,Question/Description,
+RESPNUM,Software added ID number,
+CCGID,CCG Assigned ID number,
+RUNID,Run on which survey was conducted,
+INTDATE,Date of interview,
+DAY,Day of Interview,
+,1,Sunday
+,2,Monday
+,3,Tuesday
+,4,Wednesday
+,5,Thursday
+,6,Friday
+,7,Saturday
+Gate,Gate Number,
+BAREA,Boarding Area – based on gate as follows:,
+,A,Gates 1-12
+        ,B ,Gates 20-39
+        ,C,Gates 40-48
+        ,D,Gates 50-59
+,E,Gates 60-69
+        ,F,Gates 70-90
+        ,G,Gates 91-102
+STRATA,Strata,
+,1,AM (Flights departing before 11 am)
+,2,MID (Flights departing 11 am to 5 pm)
+,3,PM (Flights departing after 5 pm)
+PEAK,Peak,
+,1,Domestic peak – domestic flights departing 8 am to 1 pm
+,2,Domestic offpeak – domestic flights departing before 8 am or after 1 pm
+,3,International flights
+METH,Method of collecting,
+,1,At gate
+,2,Mail-in
+,3,Online
+SAQ,Survey Administration,
+,1,Interviewer Administered 
+,2,Self Administered 
+AIRLINE,"Actual airline (text, standardized)",
+DESTINATION,"Actual destination (text, standardized)",
+FLIGHT,Flight number of the respondent,
+AIRLINE_CODE,Airline Used ,
+,1,AER LINGUS
+,2,AEROMEXICO
+,3,AIR CANADA
+,4,AIR CHINA
+,5,AIR FRANCE/KLM
+,6,AIR NEW ZEALAND
+,7,ALASKA
+,8,AMERICAN
+,9,ANA ALL NIPPON
+,10,AVIANCA
+,11,BRITISH AIRWAYS
+,12,CATHAY PACIFIC
+,13,CHINA EASTERN
+,14,CHINA SOUTHERN
+,15,COPA
+,16,DELTA
+,17,EMIRATES
+,18,EVA AIR
+,19,FRONTIER
+,20,HAWAIIAN AIR
+,21,INTERJET
+,22,JETBLUE
+,23,KOREAN AIR
+,24,LUFTHANSA
+,25,PHILIPPINE AIRLINES
+,26,QANTAS
+,27,SINGAPORE AIRLINES
+,28,SOUTHWEST
+,29,TURKISH AIRLINES
+,30,UNITED
+,31,UNITED INTL
+,32,VIRGIN ATLANTIC
+,33,WOW
+DEST_CODE,"Destination of flight. In most cases, this is the city name only. Where more than one airport exists in a city (e.g. Chicago), the airport is specified (CHICAGO-O’HARE).",
+,1,AMSTERDAM
+,2,ATLANTA
+,3,AUCKLAND
+,4,AUSTIN
+,5,BAKERSFIELD
+,6,BALTIMORE
+,7,BEIJING
+,8,BOSTON
+,9,BURBANK
+,10,CALGARY
+,11,CHARLOTTE
+,12,CHICAGO-O'HARE
+,13,DALLAS-FT. WORTH
+,14,DENVER
+,15,DESTINATION
+,16,DETROIT
+,17,DUBAI
+,18,DUBLIN
+,19,EUGENE
+,20,FRANKFURT
+,21,FT. LAUDERDALE
+,22,GUADALAJARA
+,23,HONG KONG
+,24,HONOLULU
+,25,HOUSTON-BUSH
+,26,INDIANAPOLIS
+,27,ISTANBUL
+,28,KAHULUI
+,29,KANSAI
+,30,KANSAS CITY
+,31,LAS VEGAS
+,32,LONDON HEATHROW
+,33,LONG BEACH
+,34,LOS ANGELES
+,35,MANILA
+,36,MEXICO CITY
+,37,MIAMI
+,38,MINNEAPOLIS-ST. PAUL
+,39,MUNICH
+,40,NASHVILLE
+,41,NEW ORLEANS
+,42,NEW YORK-JFK
+,43,NEWARK
+,44,ONTARIO (CALIF)
+,45,ORLANDO
+,46,PANAMA CITY
+,47,PARIS-DE GAULLE
+,48,PHILADELPHIA
+,49,PHOENIX
+,50,PORTLAND
+,51,PUERTO VALLARTA
+,52,QINGDAO
+,53,RALEIGH-DURHAM
+,54,REYKJAVIK
+,55,SALT LAKE CITY
+,56,SAN ANTONIO
+,57,SAN DIEGO
+,58,SAN JOSE DEL CABO
+,59,SAN SALVADOR
+,60,SANTA ANA
+,61,SANTA BARBARA
+,62,SEATTLE
+,63,SEOUL
+,64,SHANGHAI
+,65,SINGAPORE
+,66,SPOKANE
+,67,SYDNEY
+,68,TAIPEI
+,69,TOKYO-NARITA
+,70,TORONTO
+,71,VANCOUVER
+,72,"WASHINGTON,DC-DULLES"
+,73,WUHAN
+DESTGEO,"Assigned code providing area of the world for which flight is destined  (See map for US Regions)
+",
+,1,"United States – West  (AK, HI, western and most of mountain time zone)"
+,2,United States – East (Most of eastern time zone)
+,3,"United States – Midwest (MI, IN, OH, WV, and Central time zone)"
+,4,Other North America (Canada and Mexico)
+,5,Central/South America
+,6,Europe
+,7,Middle East
+,8,Asia 
+,9,Australia/New Zealand
+,10,Pre-security (NA)
+DESTMARK,Market size of the destination airport. (Based on airport’s average daily number of passengers),
+,1,"Small – Fewer than 20,000 passengers/day (on average)"
+,2,"Medium – More than 20,000 passengers/day but fewer than 70,000 passengers a day"
+,3,"Large – More than 70,000 passengers/day but fewer than 100,000 passengers a day"
+,4,"Hub – 100,000 passengers/day or more"
+ARRTIME,"The time the respondent arrived at the airport ; if none entered, “N”",
+DEPTIME,The originally scheduled departure time of the surveyed flight,
+HOWLONG,"[calculated] Length of time from respondent arrival to flight departure (entered as total number of minutes, e.g. 2 hours = 120)",
+Q2PURP1,Trip Purpose,
+Q2PURP2,1,Business/Work/Job Interview
+Q2PURP3,2,Pleasure/Vacation/Recreation
+,3,Visit friends or relatives
+,4,School/school event
+,5,Conference/convention
+,6,Wedding/funeral/graduation/reunion
+,7,Other (specify)
+,10,Escorting others (children/elderly)/personal errands/medical purpose
+,11,Military
+,12,Volunteer/Political/Religious
+,13,Moving/immigration/traveling between homes
+,0,Blank/non-response
+Q3GETTO1,How did you get to SFO today?,
+Q3GETTO2,1,Drove and parked
+Q3GETTO3,2,Dropped off
+,3,Connecting from another flight
+,4,Taxi
+,5,"Uber, Lyft or similar service"
+,6,BART
+,7,Door-to-door van service
+,8,Free hotel shuttle
+,9,Rental car center-AirTrain
+,10,Other (specify)
+,11,Limo/town car
+,12,Sonoma/Marin/Napa Airporter/similar airport bus
+,13,Company rented bus/cruise ship bus/other group arrangements
+,14,SamTrans bus/other bus/'bus' (carrier unspecified)
+,15,Caltrain/Amtrak/’train’ (carrier unspecified)
+,16,VTA
+,17,"Carshare (ZipCar, etc.)"
+,0,Blank/Non-response
+Q3PARK,Did you park in the...,
+,1,Domestic (hourly) garage
+,2,International garage
+,3,SFO long term parking
+,4,Off-airport parking
+,0,Blank/Multiple responses
+,"While at SFO today, did you?",
+Q4BAGS,Check Bags,
+Q4STORE,Purchase anything from an airport store,
+Q4FOOD,Make a restaurant purchase,
+Q4WIFI,Use free wi-fi,
+,1,Yes
+,2,No
+,3,Don't Know
+,0,Blank/Multiple responses
+Q5TIMESFLOWN,How many times flown out of SFO in the past 12 months?,
+,1,1 time
+,2,2 times
+,3,3-6 times
+,4,7-12 times
+,5,13-24 times
+,6,More than 24 times
+,0,Blank/Multiple responses
+Q5FIRSTTIME,Is this your first time flying out of SFO ever?,
+        ,1,No
+        ,2,Yes
+        ,0,Blank/Multiple response
+Q6LONGUSE,About how long have you been using SFO?,
+,1,Less than 1 year
+,2,1 - 5 years
+,3,6 - 10 years
+,4,10+ years
+,0,Blank/Multiple responses
+,Rating SFO,
+Q7ART,Artwork and Exhibitions,
+Q7FOOD,Restaurants,
+Q7STORE, Retail shops and concessions,
+Q7SIGN,Signs and directions inside SFO,
+Q7WALKWAY,Escalators/Elevators/Moving walkways,
+Q7SCREENS,Information on screens/monitors,
+Q7INFODOWN,Information booths (lower level - near baggage claim),
+Q7INFOUP,Information booths (upper level - departure area),
+Q7WIFI,Accessing and using free wi-fi at SFO,
+Q7ROADS,Signs and directions on SFO airport roadways,
+Q7PARK,Airport parking facilities,
+Q7AIRTRAIN,AirTrain,
+Q7LTPARKING,Long term parking lot shuttle (bus ride),
+Q7RENTAL,Airport rental car center,
+Q7ALL,SFO airport as a whole,
+,5,Outstanding
+,4,
+,3,
+,2,
+,1,Unacceptable
+,6,Have never used or visited / Not applicable
+,0,Blank
+Q8-1,Specific suggestions on ways SFO could improve your experience here:,
+Q8-2,0,Blank
+Q8-3,1,General positive comment/keep up the good work/everything is great/can’t think of anythng else
+Q8-4,2,Comments on the survey itself [ID if specific surveyor comment]
+Q8-5,3,Airport is OK/average/it works/no problems (general comment)
+Q8-6,4,Don’t know/nothing/don’t use it enough to know/first time here/NA
+,5,Delay issues/mechanical failure delays/weather delays/cancels/less wait time
+,6,Airport seems crowded/temperature/outdated/dimly lit/noisy/be cleaner (general)
+,7,Reduce construction work/other renovation issues
+,8,Staff (general) are great/helpful/provide excellent customer service
+,9,Staff (general/overall) are rude/do not help/could be better/need more
+,10,Provide better service to those with disabilities/seniors/veteran/etc
+,41,Improve airport safety/security/lost&found (not TSA/customs/security check)
+,42,Improve/make “everything” better/terrible (general/nonspecific)
+,43,Compared to another airport(s)/other airports are better (general/unspecified airports)
+,44,Everything is too expensive (general)
+,45,General non-feedback comment about airport/airplanes
+,Airport amenities,
+,11,Better Wi-Fi/could not connect/other Wi-Fi issues/SFO website or mobile app issues
+,12,Elevators/escalators/walkways/people movers broken/not maintained/not enough/too small
+,13,Could not find luggage carts/should be more carts/should be free/low cost/should be available after security
+,14,Charging stations/plugs don’t work/add more plugs/easier to find outlets/work stations
+,15,Add/update a gym/workout/yoga rooms in other areas of airport
+,16,Add a place for nap/lounge/rest areas/salons/dry cleaning/offer free massages/comfortable sleeping arrangements
+,17,Add family friendly amenities (children’s area/family bathrooms/nursing/animal areas)
+,18,Update artwork/improve artwork/add more artwork/make interactive
+,19,Add more “things to do”/social/recreation/entertainment/TV/news/gaming/dance
+,20,Open shops/restaurants/currency exchange/check-in booths earlier/stay open later
+,21,Clean(er) amenities/baggage claim/luggage carts/flooring/carpet/fountains
+,22,Add more restrooms/clean restrooms more/fix broken restroom facilities/add showers to restrooms
+,23,AirTrain is slow/infrequent/not functioning/broke down/closes early
+,24,Add more trash/recycling/compost bins/clarify which bin all items go into
+,25,Add outdoor areas/balcony/smoking areas
+,26,Add more ATMs/currency exchanges/other finance/business related amenities
+,27,Add more water refill stations/fountains/vending machines/furniture
+,Boarding areas/gates/terminals,
+,31,Need more seating at boarding areas/too crowded/too small for number of passengers/uncomfortable
+,32,"Boarding areas are too confusing (instructions, separations, lines, communication, etc)"
+,33,Cleaner seating/gates/boarding areas
+,34,Terminal 1 (gates 20-48) issues
+,35,International (gate A-G) gates/terminals/planes issues 
+,36,Terminal 2 issues (gates 50-59)
+,Signage/wayfinding (in airport),
+,51,"Provide announcements/signs/instructions in other languages (Spanish, Chinese, etc.)"
+,52,Signage (all inside airport) is inaccurate/confusing or need better signage/directions
+,53,Boarding gate monitors rotate too quickly/confusing/can’t find/text small/bigger display screens
+,54,Add more boarding gate signs in more areas/more signage features
+,55,Add the time to more signs/more clocks showing time
+,56,Difficult or could not find gate/flight/layover/connecting flight – signage was insufficient/confusing
+,57,Add more maps/better maps/directions/directories of places
+,58,Easier/closer/more convenient/provide better transfers/connections between terminals/gates/don’t want to repeat security when connecting
+,59,AirTrain signage was nonexistent/confusing/inaccurate
+,60,Could not find information booths/staff to help when needed/need more info booths/booths open earlier/later 
+,61,Info booth personnel could not help me with signage/directions/tech issues/gave wrong information/rude
+,62,[Positive] Airport is easy to get around in/great layout/accessible/open/clean
+,63,Need clearer PA announcements/too quiet/too loud/not accurate/bad communication
+,64,Takes too long to get to gate/less walking/add more walkways/closer to other amenities/gates/check-in
+,65,Need better signage outside/at check-in/arrivals/luggage drop off/baggage claim/parking
+,66,"Difficult to navigate for those in wheelchairs, bad knees, seniors, other disabilities"
+,67,Arriving in a departure area/on a domestic flight but depart int’l terminal (or vice versa)
+,Getting to the airport,
+,71,"Signs approaching airport inaccurate (which airline, highway, etc)/need to be imp"
+,72,Approach to airport by car too congested/heavy traffic/difficult
+,73,Expand pick up/better signage/separate drop off/pickup points for rideshares
+,74,Rental car center issues/too congested/too far away from main airport/not airport
+,75,Add more parking/cheaper parking/better info for parking/closer parking
+,76,Pick up/drop off by private car needs to be easier to navigate/confusing
+,77,Public transport connection issues/want more or easier public transit/cannot find
+,78,Hotel/tour/shuttle bus all issues/want more/signage
+,Restaurants,
+,101,Too expensive/reduce prices/offer cheaper options/offer free coffee/food
+,102,Offer a wider variety/selection of restaurants/add more restaurants (overall)
+,103,"Offer more casual/fast food restaurants (Starbucks, Walgreens, McDonalds, coffee/donuts)"
+,104,"Add more restaurants of a specific type, e.g. international, higher-end, bars, sit-down, pizza, grocery, etc."
+,105,Improve quality of food offered/better/healthier/fresher food
+,106,"Specific vendor issue: Willow, Italian Cafe, Sourdough, DogPatch, Yankee Pier, Sees, Lark Creek Grill"
+,107,"More food options to meet specific diet (vegan, vegetarian, Halal, gluten-free)"
+,108,More local/SF Bay Area food options
+,109,Cleaner food areas/restaurants
+,110,Improve staff/vendor customer service/service was slow/faster service/rude
+,Shops,
+,151,Need better/wider selection/more shops
+,152,"Add specific type of store (e.g. makeup/skincare, health/pharmacy, gaming/tech, sports, etc)"
+,153,Shops are too expensive/more affordable products/more duty free
+,154,Improve customer service of store staff/received poor service
+,155,Fewer shops
+,Security/Customs/TSA,
+,201,Security areas are too congested/crowded/long lines (people physically)
+,202,Security area was not efficient/confusing/disorganized/need faster/wait time too long
+,203,Security not enough employees or open/working scanners/lanes/machines
+,204,Customs/immigration wait time too long/not efficient/confusing/crowded/understaffed
+,205,Relax/revise prohibited items/restrictions/unnecessary/allow veteran/disabled/family exceptions
+,206,Security staff is rude/needs to treat passengers better/harassing
+,207,Immigration/customs staff is rude/need to treat passengers better
+,208,[positive] Security staff is polite/helpful/provides good service/efficient/speedy
+,209,[positive] Immigration/customs staff is polite/helpful/provides good service
+,210,"Priority boarding/pre-check issues (not worth it/no extra features, still crowded/slow, rude staff, etc)"
+,211,Cleaner security/TSA trays/TSA area/not maintained/insufficient supplies
+,212,Security is stressful/terrible/not good/unspecified issues/general
+,Airlines,
+,501,Increase airline staffing/check-in too long or should be faster/problem at check-in
+,502,Airline staff rude/not helpful/incompetent/need to improve/bad communication
+,503,Need bigger plane/stop overbooking flights/add more flights
+,504,Ticket issues (prices/refunds/ticket machine/missing or wrong info)
+,505,General airline issues/just needs to improve/terrible
+,510,[Positive] Specified airline staff is polite/helpful/provides good service
+,Other airports/airlines specific: ,
+,801,Negative compared to other California airports (OAK/SJC/LAX/SMF/SAN)
+,802,"Negative compared to other US airports (other west coast, east coast, midwest, south, etc)"
+,803,"Negative compared to international airports (Heathrow, Canada, Singapore, etc.)"
+,804,"United (T3, gates 60-90) airline/gates/terminals/planes issues/suggestions"
+,805,Southwest airline/gates/terminals/planes issues/suggestions
+,806,JetBlue airline/gates/terminals/planes issues/suggestions
+,Other positive,
+,991,Positive comment about amenities/upgrades/artwork (includes parking/Airtrain)
+,992,Positive comment about restaurants/food/shops
+,993,SFO is positive compared to other airports (general)
+,994,Positive comment about gates/boarding areas/terminals/security
+,995,SFO is positive compared to XYZ airport [if specific one is mentioned multiple times]
+,999,Comment unrelated issues
+,Rating SFO Cleanliness,
+Q9Boarding,Boarding areas,
+Q9AirTrain,AirTrain,
+Q9Rental,Airport rental car center  ,
+Q9Food,Airport restaurants,
+Q9Restroom,Restrooms,
+Q9All,Cleanliness of SFO overall,
+,5,Clean
+,4,
+,3,Average
+,2,
+,1,Dirty
+,6,Have never used or visited / Not applicable
+,0,Blank
+Q9-1,Comments about Cleanliness,
+Q9-2,1,Airport is very clean/well maintained/other positive comment related to cleanliness
+Q9-3,2,"Airport cleanliness is OK/like any other airport/nothing great, but it works"
+,3,SFO is cleaner than other airports
+,4,Other airports are cleaner
+,5,Bathrooms are dirty/not maintained/needs update/cleaning supplies
+,6,Carpeting/floor is dirty/not maintained
+,7,Boarding gate areas/seating dirty/stained/litter on floor
+,8,Restaurants/eating areas dirty/littered/not cleaned
+,9,Amenities/art/walkway/rest areas/Airtrain/other areas of airport are dirty/not maintained
+,10,Security area/check point dirty
+,11,Airport could use an update/not dirty but looks outdated
+,12,Need more trash cans/compost bins/hand sanitizer dispensers
+,13,SFO is not clean/needs improve general/unspecified
+,14,Animals/vermin complaint
+,15,Feedback/complaint on non-cleaning features/situations
+,99,No opinion/can’t think of anything/didn’t notice 
+Q10SAFE,How safe do you feel at SFO?,
+,5,Extremely Safe
+,4,
+,3,Neutral
+,2,
+,1,Not safe at all
+,0,Blank
+Q10-1,Why is that?,
+Q10-2,1,There are a lot of security/officers/airport staff who are walking around/alert/effective/staff is friendly/professional
+Q10-3,2,Security procedures/equipment/cameras are visible/effective/easy/thorough
+,3,Airport is open/brightly lit/well-maintained/calm/clean/good quantity of people around safely
+,4,No reason to not feel safe/Just feel safe/don’t see anything to worry about/I feel safe
+,5,No problems/It’s always safe/It’s an airport/it’s the US/it’s San Francisco
+,6,Never feel completely safe/feel uneasy in any airport/nervous flyer
+,7,Security presence is a sham/doesn’t make us any safer/just “security theatre”/if someone wants to do something they will
+,8,No weird/questionable people/no homeless/nobody negative or loitering
+,9,I know airports well/come here often/frequent flyer
+,10,Security/TSA were rude/harassing/not trustworthy/bad service/useless/etc
+,11,Average/OK/like other airports/always room for improvement
+,12,Need more police/security presence/Haven’t seen enough/very many security/police
+,15,Fine/good/friendly/other general/nonspecific positive
+,16,Has never been an incident at SFO/Nothing’s happened to me personally/have not been attacked/items taken
+,20,"TSA/security did not check thoroughly/haphazard/sometimes do their job, sometimes do not/let things slip through they should have checked/did not care"
+,21,Told of/saw incident/had incident occur/too many/current events
+,22,"Compared to other airport/locations: public transit, downtown, other aiports/cities"
+,23,Negative comment about other passengers/non-staff/questionable people/loiterers
+,99,Nothing/NA/I don’t know/incomplete comment/irrelevant
+Q11TSAPRE,Did you go through the TSA Pre-Check security line when you passed through security at SFO today?,
+,1,Yes
+,2,No
+,3,Don't know
+,4,Did not go through security at SFO
+,0,Blank/Multiple responses
+Q12PRECHECKRATE,"How would you rate your experiance going through TSA Pre-Check security line  (rather than the regular security line at SFO) today?
+",
+,5,Much better
+,4,Somewhat better
+,3,About the same
+,2,Somewhat worse
+,1,Much worse
+,6,Don't know
+,0,Blank
+Q12-1,Why is that?,
+Q12-2,1,Easier/faster/less hassle/great/a godsend/general positive comment
+Q12-3,2,"Did not have to take off shoes/belt/unload laptop, etc."
+,3,"Personnel at pre-check were rude/TSA still unprofessional, so it doesn't matter"
+,4,Line too slow/No faster than regular TSA line
+,5,Should have body scanning option in pre-check
+,6,Need more stations open/almost all were closed
+,7,Confusing/signage and instructions conflicted each other/need to do a better job communicating what the line means and what people need to do/seem to be missing bins/other items
+,8,"Unsure/no one else was there, so tough to say whether it was better"
+,9,"Would rather see TSA staff up other areas/other regular security is uneven terminal to terminal (fast at some, very slow at others)"
+,10,Staff seem better trained/more professional/friendlier/not as unnecessarily invasive
+,11,"Staff assumes you know what you are doing/don't have to hear constant repetition of messages (e.g. empty pockets, shoes off, laptops on conveyor)"
+,12,Non pre-check people allowed in line/getting benefits of pre-check without having to pay for it
+,13,Made me feel less anxious going through this vs. regular security
+,14,Still had to remove shoes/belt/unpack laptop/get patted down
+,15,Didn't seem any different than regular security line
+,16,Easier time appreciated because I am disabled/elderly
+,17,Allow spouses/traveling companions to also go through line
+,18,Seems inconsistent with security at other airports/they had to examine items other airports ignored/not as good as other airports
+,19,Like/Love pre-check/General Positive Comment
+,20,No Pre-Check lines were open/lines merged with regular lines
+,21,Shorter line
+,22,Do not like added cost/Added cost seems like extortion
+,23,Feels like it's making air travel less safe
+,0,Blank/No Response
+Q13COUNTY,From which county did you leave today?,
+,1,Alameda
+,2,Contra Costa
+,3,Marin
+,4,Napa
+,5,San Francisco
+,6,San Mateo
+,7,Santa Clara
+,8,Solano
+,9,Sonoma
+,10,Other (specify)
+,11,Not applicable – connecting from another flight
+,0,Blank/Multiple response
+,12,Calavaras
+,13,El Dorado
+,14,Fresno
+,15,Humboldt
+,16,Mendocino
+,17,Merced
+,18,Monterey
+,19,Orange
+,20,Placer
+,21,Sacramento
+,22,San Benito
+,23,San Bernadino
+,24,San Diego
+,25,San Joaquin
+,26,San Luis Obispo
+,27,Santa Barbara
+,28,Santa Cruz
+,29,Shasta
+,30,Stanislaus
+,31,Sutter
+,32,Touloumne
+,33,Tulare
+,34,"Washoe (Reno, NV)"
+,35,Yolo
+,36,Yuba
+Q13GETRATE,How would you rate your experience getting to the airport today?,
+Q14FIND ,"While at SFO today, how easy or difficult was it... finding your way around the airport
+",
+Q14PASSTHRU,"While at SFO today, how easy or difficult was it... passing through security and screening
+",
+,5,Easy
+,4,
+,3,Average
+,2,
+,1,Difficult
+,6,Don't know/Not applicable
+,0,Blank
+Q15PROBLEM, Did you encounter any problems?,
+,1,Yes
+,2,No
+,3,Don't Know
+,0,Blank/Multiple responses
+Q15-1,Directions/signage/announcements,
+Q15-2,1,Signs/info boards provided confusing/incomplete information
+Q15-3,2,Took too long to reach gate/had to go through security twice
+,3,SFO staff (not info desk) provided incomplete/inaccurate directions/information
+,4,Info desk not helpful/gave incomplete or inaccurate information
+,5,Difficulty finding gate/terminal
+,6,No one available to ask for help with directions
+,7,Directions to/from AirTrain (specifically) confusing/incomplete/inaccurate information
+,8,Could not hear announcements well/announcements too soft/competing announcements made it difficult to hear
+,9,Signs in English only
+,Restaurants/stores/services,
+,11,Restaurants/stores not yet open/already closed
+,12,Poor service at airport store/bank/restaurant
+,13,Couldn’t find type of food I wanted/product in store
+,14,Food/stores too expensive
+,15,Couldn’t find ATM/currency exchange/ATM not working
+,Airport amenities,
+,21,Outlets/charging stations/Wi-Fi/water station not working properly
+,22,Restrooms closed/dirty/could not find a restroom
+,23,Equipment malfunction – escalators/elevators/AirTrain
+,24,Airport parking/airport drop-off congested/confusing
+,25,Couldn’t find water/drinking fountain/luggage carts/plugs
+,26,Bad odor (not restroom)/too hot/too cold
+,27,Boarding areas dirty
+,Security/Immigration,
+,31,TSA/Security issue – confiscated item/prohibited item/triggered further search
+,32,Security took too long/too confusing/staff rude
+,33,Person in traveling party was searched inappropriately searched
+,34,Personal item damaged/ruined by security/TSA inspection/security equipment
+,35,Immigration/customs issue
+,36,TSA misread ticket/wanted paper ticket
+,Airlines,
+,41,General issue with airline (not described)
+,42,Airline employee was not helpful/gave inaccurate or confusing information
+,43,Airline rules regarding checked baggage/other airline policy issue
+,44,Airline check-in was confusing/crowded/understaffed/took too long/not open
+,45,Airline kiosk for check-in malfunctioned/wouldn’t take card/wouldn’t check baggage
+,46,Airline club was full/refused entry even though had proper ticket/closed
+,47,Airline issued inaccurate boarding pass/didn’t issue/other ticketing issues
+,Gate changes/delays,
+,51,Gate change/multiple gate changes
+,52,Missed flight/missed connection
+,53,Excessive flight delay/cancellation
+,54,Non-communication/poor communication re: gate changes/delays
+,Passengers with disabilities,
+,61,Have difficulty walking/hearing/lifting/bending and airport did not provide help
+,62,Airline (specifically) did not provide wheelchair/red cap/other disabled assistance/had to wait a long time for disabled assistance
+,Other,
+,71,Problem was my own fault/personal issue (ride fell through/friends went shopping and delayed us)
+,72,Ticketing mismatch (name on ticket vs. name on identification)
+,73,Problems on transit to SFO/traffic
+,74,Store/airline wouldn’t take credit/debit card
+,0,Problem not specified
+NETPRO  ,"On a scale of 0 to 10, how likely is it that you would recommend SFO to a friend or colleague?",
+,10,Extremely Likely
+,9,
+,8,
+,7,
+,6,
+,5,
+,4,
+,3,
+,2,
+,1,
+,0,Not at all likely
+,11,Blank
+Q17LIVE,Live in...,
+,1,9 County Bay Area
+,2,Northern California outside the Bay Area
+,3,In another region
+,0,Blank/Multiple responses
+Q18CITY,Actual city name (text),
+Q18COUNTY,Actual county (US only),
+Q18STATE,Actual state abbreviation (US) or state name (Canada/Mexico),
+Q18ZIP,Actual ZIP Code (US only),
+Q18COUNTRY,Standardized country name (text),
+HOME,Codes specifying home location of respondent,
+,1,Alameda County
+,2,Contra Costa County
+,3,Marin County
+,4,Napa County
+,5,San Francisco County
+,6,San Mateo County
+,7,Santa Clara County
+,8,Solano County
+,9,Sonoma County
+,10,All Other California and Western US (same as destination breakdown)
+,11,Midwestern US (see destination for breakdown/definition)
+,12,Eastern US (see destination for breakdown/definition)
+,13,"Other North America (Canada, Mexico, and Caribbean)"
+,14,Central/South America
+,15,Europe
+,16,Asia/Japan
+,17,Middle East
+,18,Africa
+,19,Australia/New Zealand/Pacific
+,90,County/city not specified but from Bay Area (Q17)
+,91,County/city not specified but from Northern CA (Q17)
+,99,Blank/unknown
+Q19Clear,Are you a member of Clear,
+,1,Yes 
+,2,No 
+,0,Blank
+Q20Age,Age,
+,1,Under 18
+,2,18 - 24
+,3,25 - 34
+,4,35 - 44
+,5,45 - 54
+,6,55 - 64
+,7,65 and over
+,0,Blank/Multiple responses
+Q21Gender,Gender,
+,1,Male
+,2,Female
+,3,Non-Binary
+,0,Blank/Multiple responses
+Q22Income,Income,
+,1,"Under 50,000"
+,2,"$50,000 - $100,000"
+,3,"$100,001 - $150,000"
+,4,"Over $150,000"
+,5,Other Currency (specify)
+,0,Blank/Multiple responses
+Q23FLY,"Do you typically fly 100,000 miles or more?",
+,1,Yes
+,2,No
+,3,Don't know
+,0,Blank/Multiple responses
+Q24SJC,"In the past two years, have you used San Jose Airport",
+,1,Yes
+,2,No
+,3,Don't know
+,0,Blank/Multiple responses
+Q24OAK,"In the past two years, have you used Oakland International Airport",
+,1,Yes
+,2,No
+,3,Don't know
+,0,Blank/Multiple responses
+LANG,Language of questionaire,
+,1,English
+,2,Spanish
+,3,Chinese
+,4,Japanese
+WEIGHT,Weight assigned to each record to proportionally represent SFO passengers,

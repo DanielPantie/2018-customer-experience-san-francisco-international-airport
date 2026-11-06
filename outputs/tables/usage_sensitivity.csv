@@ -1,0 +1,10 @@
+service,usage_group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+Restaurants,All valid raters,Q7FOOD,Restaurants: rating 4 or 5,percent,2342,56.8418630766,1906.0996041974,True,valid_Q7FOOD
+Restaurants,Used/purchased today: Yes,Q7FOOD,Restaurants: rating 4 or 5,percent,1309,56.6497414816,1082.4979858276,True,valid_Q7FOOD
+Restaurants,Used/purchased today: No,Q7FOOD,Restaurants: rating 4 or 5,percent,833,57.1813234257,661.5727455758,True,valid_Q7FOOD
+Retail shops,All valid raters,Q7STORE,Retail shops: rating 4 or 5,percent,2277,54.6924706364,1857.4451252715,True,valid_Q7STORE
+Retail shops,Used/purchased today: Yes,Q7STORE,Retail shops: rating 4 or 5,percent,1016,55.2491276733,822.0752530479,True,valid_Q7STORE
+Retail shops,Used/purchased today: No,Q7STORE,Retail shops: rating 4 or 5,percent,1016,53.3460246876,829.3752758668,True,valid_Q7STORE
+Free Wi-Fi,All valid raters,Q7WIFI,Free Wi-Fi: rating 4 or 5,percent,2074,73.1245694176,1672.3896758162,True,valid_Q7WIFI
+Free Wi-Fi,Used/purchased today: Yes,Q7WIFI,Free Wi-Fi: rating 4 or 5,percent,1353,82.4281137420,1083.5337181639,True,valid_Q7WIFI
+Free Wi-Fi,Used/purchased today: No,Q7WIFI,Free Wi-Fi: rating 4 or 5,percent,582,54.2396400656,465.1149874192,True,valid_Q7WIFI

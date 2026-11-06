@@ -1,0 +1,160 @@
+{
+  "rows": 2809,
+  "columns": 97,
+  "duplicate_ids_n": 0,
+  "duplicate_rows_n": 0,
+  "csv_sha256": "bb2e61e215983121b767a36e3f85d86424d890128e94a2010d800fbda843741c",
+  "dictionary_sha256": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+  "header_names_with_outer_whitespace": [
+    "Q14FIND ",
+    "NETPRO  "
+  ],
+  "missing_weights_n": 0,
+  "nonpositive_weights_n": 0,
+  "weights": {
+    "count": 2809.0,
+    "mean": 0.9999990000355999,
+    "std": 0.4909764174339332,
+    "min": 0.208038,
+    "25%": 0.6704842,
+    "50%": 1.0611394,
+    "75%": 1.4869248,
+    "max": 3.8875283
+  },
+  "rating_audit": {
+    "Q7ART": {
+      "valid_1_to_5_n": 2160,
+      "zero_blank_n": 124,
+      "six_not_applicable_n": 525,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7FOOD": {
+      "valid_1_to_5_n": 2342,
+      "zero_blank_n": 93,
+      "six_not_applicable_n": 374,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7STORE": {
+      "valid_1_to_5_n": 2277,
+      "zero_blank_n": 124,
+      "six_not_applicable_n": 408,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7SIGN": {
+      "valid_1_to_5_n": 2648,
+      "zero_blank_n": 101,
+      "six_not_applicable_n": 60,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7WALKWAY": {
+      "valid_1_to_5_n": 2537,
+      "zero_blank_n": 98,
+      "six_not_applicable_n": 174,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7SCREENS": {
+      "valid_1_to_5_n": 2611,
+      "zero_blank_n": 108,
+      "six_not_applicable_n": 90,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7INFODOWN": {
+      "valid_1_to_5_n": 1518,
+      "zero_blank_n": 145,
+      "six_not_applicable_n": 1146,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7INFOUP": {
+      "valid_1_to_5_n": 1529,
+      "zero_blank_n": 166,
+      "six_not_applicable_n": 1114,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7WIFI": {
+      "valid_1_to_5_n": 2074,
+      "zero_blank_n": 131,
+      "six_not_applicable_n": 604,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7ROADS": {
+      "valid_1_to_5_n": 1772,
+      "zero_blank_n": 177,
+      "six_not_applicable_n": 860,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7PARK": {
+      "valid_1_to_5_n": 1065,
+      "zero_blank_n": 210,
+      "six_not_applicable_n": 1534,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7AIRTRAIN": {
+      "valid_1_to_5_n": 1309,
+      "zero_blank_n": 206,
+      "six_not_applicable_n": 1294,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7LTPARKING": {
+      "valid_1_to_5_n": 649,
+      "zero_blank_n": 233,
+      "six_not_applicable_n": 1927,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7RENTAL": {
+      "valid_1_to_5_n": 910,
+      "zero_blank_n": 230,
+      "six_not_applicable_n": 1669,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q7ALL": {
+      "valid_1_to_5_n": 2625,
+      "zero_blank_n": 0,
+      "six_not_applicable_n": 0,
+      "missing_or_nonnumeric_n": 184,
+      "unexpected_numeric_n": 0
+    },
+    "Q9All": {
+      "valid_1_to_5_n": 2689,
+      "zero_blank_n": 99,
+      "six_not_applicable_n": 21,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q14FIND": {
+      "valid_1_to_5_n": 2603,
+      "zero_blank_n": 150,
+      "six_not_applicable_n": 56,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    },
+    "Q14PASSTHRU": {
+      "valid_1_to_5_n": 2364,
+      "zero_blank_n": 226,
+      "six_not_applicable_n": 219,
+      "missing_or_nonnumeric_n": 0,
+      "unexpected_numeric_n": 0
+    }
+  },
+  "nps_valid_n": 2650,
+  "nps_blank_11_n": 159,
+  "valid_problem_n": 2616,
+  "problem_reporter_n": 369,
+  "problem_reporters_without_recognized_theme_n": 15,
+  "coded_theme_but_no_yes_n": 0,
+  "wifi_users_with_not_applicable_rating_n": 20,
+  "wifi_nonusers_today_with_valid_rating_n": 582
+}

@@ -1,0 +1,5 @@
+group_column,group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+problem_status,Reported a problem,nps,Net Promoter Score,points,359,-1.9054212843,284.6388313324,True,valid_nps
+problem_status,Reported a problem,overall_top2,Airport overall: rating 4 or 5,percent,345,68.2957023528,279.1005235600,True,valid_Q7ALL
+problem_status,Reported no problem,nps,Net Promoter Score,points,2181,41.4610693817,1767.3262680949,True,valid_nps
+problem_status,Reported no problem,overall_top2,Airport overall: rating 4 or 5,percent,2136,82.5930462681,1736.8786322775,True,valid_Q7ALL

@@ -1,0 +1,15 @@
+service_column,service,pair_n,spearman_rho,weighted,interpretation
+Q7LTPARKING,Long-term parking shuttle,631,0.6144694429,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7INFOUP,Information: departures,1471,0.6059291887,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7PARK,Parking facilities,1040,0.5940602023,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7RENTAL,Rental car center,879,0.5787297489,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7INFODOWN,Information: arrivals,1460,0.5773248348,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7SIGN,Indoor signs and directions,2543,0.5726291968,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7FOOD,Restaurants,2249,0.5668094876,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7SCREENS,Flight information screens,2505,0.5618442128,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7STORE,Retail shops,2180,0.5574292290,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7WALKWAY,Walkways and elevators,2432,0.5400802406,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7ART,Artwork and exhibitions,2077,0.5233550019,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7ROADS,Roadway signs,1718,0.5133715485,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7AIRTRAIN,AirTrain,1266,0.5133440817,False,Unadjusted co-rating association; pair-specific base; not causal importance.
+Q7WIFI,Free Wi-Fi,1990,0.4439218560,False,Unadjusted co-rating association; pair-specific base; not causal importance.

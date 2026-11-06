@@ -1,0 +1,15 @@
+{
+  "author": "Daniel Pantie",
+  "slides": [
+    {"section":"Customer experience at SFO", "title":"point NPS gap", "subtitle":"between passengers reporting a problem and those reporting none", "note":"An independent Python case study using the 2018 SFO customer survey."},
+    {"section":"The survey", "title":"2,809 passengers.\n97 survey fields.", "subtitle":"Real responses and an accompanying data dictionary from SFO and DataSF.", "note":"This is a historical 2018 study. It does not describe current airport performance."},
+    {"section":"Overall experience", "title":"{{OVERALL_TOP2_0}}% rated SFO\n4 or 5 out of 5", "subtitle":"The overall airport rating is positive for most valid respondents.", "note":"Overall ratings and willingness to recommend capture different parts of the experience."},
+    {"section":"Problems and recommendation", "title":"Reported problems coincide\nwith lower recommendation", "subtitle":"NPS among respondents with a valid recommendation score:", "note":"This comparison is an association. It does not estimate the causal impact of a problem."},
+    {"section":"Service ratings", "title":"Retail and dining received\nthe lowest service ratings", "subtitle":"Selected services: strongest three and lowest two. Share rating 4 or 5.", "note":"Each service has its own valid response base. Full results appear in the notebook."},
+    {"section":"Reported problem themes", "title":"Security is the most\nfrequently coded theme", "subtitle":"Among passengers who reported a problem:", "note":"A passenger may appear in more than one theme. 15 problem reporters have no recognized theme code."},
+    {"section":"Moving through the airport", "title":"Navigation rates higher\nthan security screening", "subtitle":"Share rating the experience 4 or 5 on the 1-to-5 difficulty scale:", "note":"The scale runs from 1 (difficult) to 5 (easy). This is a descriptive comparison."},
+    {"section":"Response-base sensitivity", "title":"Wi-Fi ratings change\nwith the response base", "subtitle":"Share rating free Wi-Fi 4 or 5:", "note":"People who did not use Wi-Fi today may still rate a past experience. Define the population before comparing scores."},
+    {"section":"Business implications", "title":"Three investigations\nfollow from the evidence", "subtitle":"Priorities for follow-up, rather than proven improvement effects:", "note":"The survey does not quantify revenue uplift or identify which organization caused each problem."},
+    {"section":"Method and reproducibility", "title":"The coding determines\nthe result", "subtitle":"Weights, valid response bases and explicit definitions make the analysis reviewable.", "note":"The accompanying project includes the executed notebook, full tables, checks and editable text sources."}
+  ]
+}

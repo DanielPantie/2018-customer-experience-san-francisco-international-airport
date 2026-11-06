@@ -1,0 +1,164 @@
+CUSTOMER EXPERIENCE AT SFO
+SFO 2018 / DataSF. My weighted calculations.
+01 / 10
+43
+point NPS gap
+between passengers reporting a
+problem and those reporting none
+2,809 passengers. One airport. Historical survey
+evidence.
+An independent Python case study using the 2018 SFO customer
+survey.
+Daniel Pantie
+THE SURVEY
+2,809 passengers.
+97 survey fields.
+SFO 2018 / DataSF. My weighted calculations.
+02 / 10
+Real responses and an accompanying data
+dictionary from SFO and DataSF.
+ONE ROW PER PASSENGER
+Overall ratings, recommendation, service use and coded
+problems.
+DIFFERENT QUESTIONS
+1-5 ratings, 0-10 recommendation and explicit Yes/No
+answers.
+WEIGHTS AND RESPONSE BASES
+Each metric uses its own eligible, valid responses.
+This is a historical 2018 study. It does not describe current airport
+performance.
+OVERALL EXPERIENCE
+80% rated SFO
+4 or 5 out of 5
+SFO 2018 / DataSF. My weighted calculations.
+03 / 10
+The overall airport rating is positive for most valid
+respondents.
+Airport as a whole: rating 4 or 5
+80%
+Overall recommendation
++35
+NPS points
+Overall ratings and willingness to recommend
+capture different parts of the experience.
+Valid n: 2,625 for overall rating and 2,650 for NPS.
+PROBLEMS AND RECOMMENDATION
+Reported problems coincide
+with lower recommendation
+SFO 2018 / DataSF. My weighted calculations.
+04 / 10
+NPS among respondents with a valid recommendation score:
+Reported no problem
+n = 2,181
++41
+Reported a problem
+n = 359
+-2
+Difference: 43.4 points
+This comparison is an association. It does not estimate the
+causal impact of a problem.
+SERVICE RATINGS
+Retail and dining received
+the lowest service ratings
+SFO 2018 / DataSF. My weighted calculations.
+05 / 10
+Selected services: strongest three and lowest two. Share rating 4
+or 5.
+Walkways and elevators
+79%
+Flight information screens
+79%
+Indoor signs and directions
+78%
+Restaurants
+57%
+Retail shops
+55%
+Each service has its own valid response base. Full results appear in
+the notebook.
+REPORTED PROBLEM THEMES
+Security is the most
+frequently coded theme
+SFO 2018 / DataSF. My weighted calculations.
+06 / 10
+Among passengers who reported a problem:
+Security and immigration
+36%
+Directions and information
+20%
+Gate changes and delays
+14%
+Airline experience
+10%
+Base: all 369 problem reporters.
+A passenger may appear in more than one theme. 15 problem reporters
+have no recognized theme code.
+MOVING THROUGH THE AIRPORT
+Navigation rates higher
+than security screening
+SFO 2018 / DataSF. My weighted calculations.
+07 / 10
+Share rating the experience 4 or 5 on the 1-to-5 difficulty
+scale:
+Finding the way
+86%
+Security and screening
+75%
+Valid n = 2,603 for navigation
+and 2,364 for security screening.
+The scale runs from 1 (difficult) to 5 (easy). This is a descriptive
+comparison.
+RESPONSE-BASE SENSITIVITY
+Wi-Fi ratings change
+with the response base
+SFO 2018 / DataSF. My weighted calculations.
+08 / 10
+Share rating free Wi-Fi 4 or 5:
+All valid raters (n = 2,074)
+73%
+Same-day users (valid n = 1,353)
+82%
+Usage and rating eligibility need
+separate definitions.
+People who did not use Wi-Fi today may still rate a past
+experience. Define the population before comparing scores.
+BUSINESS IMPLICATIONS
+Three investigations
+follow from the evidence
+SFO 2018 / DataSF. My weighted calculations.
+09 / 10
+Priorities for follow-up, rather than proven improvement
+effects:
+01
+Investigate security pain points
+Work with relevant partners to connect complaints
+with queue and incident records.
+02
+Examine dining and retail
+Ask about value, availability and service before
+deciding which change to fund.
+03
+Define actual-user measures
+Track digital-service access and completion alongside
+user-rated experience.
+The survey does not quantify revenue uplift or identify which organization
+caused each problem.
+METHOD AND REPRODUCIBILITY
+The coding determines
+the result
+SFO 2018 / DataSF. My weighted calculations.
+10 / 10
+Weights, valid response bases and explicit definitions make the analysis
+reviewable.
+RATINGS
+1-5 are valid. Exclude 0, 6, literal BLANK and missing
+ratings.
+RECOMMENDATION
+0-10 are valid. Code 11 is blank. NPS uses points.
+PROBLEM THEMES
+Count people once per theme. Include uncoded problem
+reporters in the base.
+The accompanying project includes the executed
+notebook, full tables, checks and editable text
+sources.
+2018 evidence. Descriptive associations. No causal effects.

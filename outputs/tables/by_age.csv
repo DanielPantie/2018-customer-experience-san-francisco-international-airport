@@ -1,0 +1,13 @@
+group_column,group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+age_group,18-34,nps,Net Promoter Score,points,968,32.3270883112,771.5421979843,True,valid_nps
+age_group,18-34,overall_top2,Airport overall: rating 4 or 5,percent,938,79.7022419556,747.4986489494,True,valid_Q7ALL
+age_group,18-34,problem_rate,Reported a problem,percent,942,13.1235018407,754.3817152243,True,valid_problem
+age_group,35-54,nps,Net Promoter Score,points,880,34.2061487662,721.4289033473,True,valid_nps
+age_group,35-54,overall_top2,Airport overall: rating 4 or 5,percent,852,78.7977817377,698.5117096788,True,valid_Q7ALL
+age_group,35-54,problem_rate,Reported a problem,percent,851,12.4431835668,695.8712448362,True,valid_problem
+age_group,55+,nps,Net Promoter Score,points,709,40.8332339325,569.6130709692,True,valid_nps
+age_group,55+,overall_top2,Airport overall: rating 4 or 5,percent,673,83.9269012726,544.1914697226,True,valid_Q7ALL
+age_group,55+,problem_rate,Reported a problem,percent,709,13.3098543661,569.8384754722,True,valid_problem
+age_group,Under 18,nps,Net Promoter Score,points,17,-6.7894979977,15.3008082736,True,valid_nps
+age_group,Under 18,overall_top2,Airport overall: rating 4 or 5,percent,17,69.6436885041,15.6010728298,True,valid_Q7ALL
+age_group,Under 18,problem_rate,Reported a problem,percent,16,10.1700174370,14.2132070555,True,valid_problem

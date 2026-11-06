@@ -1,0 +1,7 @@
+group_column,group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+visit_type,First-time passenger,nps,Net Promoter Score,points,570,27.0408883524,443.5408192007,True,valid_nps
+visit_type,First-time passenger,overall_top2,Airport overall: rating 4 or 5,percent,547,80.7427115932,432.0501268715,True,valid_Q7ALL
+visit_type,First-time passenger,problem_rate,Reported a problem,percent,560,15.0103089541,437.0216100101,True,valid_problem
+visit_type,Returning passenger,nps,Net Promoter Score,points,2063,37.4369517782,1677.3547098511,True,valid_nps
+visit_type,Returning passenger,overall_top2,Airport overall: rating 4 or 5,percent,2061,80.4069121513,1683.4201802052,True,valid_Q7ALL
+visit_type,Returning passenger,problem_rate,Reported a problem,percent,2037,12.3016718117,1658.3521056253,True,valid_problem

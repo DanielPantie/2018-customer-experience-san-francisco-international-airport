@@ -1,0 +1,32 @@
+metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+overall_top2,Airport overall: rating 4 or 5,percent,2625,80.4852450280,2128.3528461306,True,valid_Q7ALL
+problem_rate,Reported a problem,percent,2616,12.8815579506,2109.4669825781,True,valid_problem
+nps,Net Promoter Score,points,2650,35.1136321036,2134.2430101245,True,valid_nps
+promoters,Promoters: recommendation 9-10,percent,2650,50.6993414959,2134.2430101245,True,valid_nps
+passives,Passives: recommendation 7-8,percent,2650,33.7149491118,2134.2430101245,True,valid_nps
+detractors,Detractors: recommendation 0-6,percent,2650,15.5857093923,2134.2430101245,True,valid_nps
+Q7ART,Artwork and exhibitions: rating 4 or 5,percent,2160,71.2785331330,1780.2490711153,True,valid_Q7ART
+Q7FOOD,Restaurants: rating 4 or 5,percent,2342,56.8418630766,1906.0996041974,True,valid_Q7FOOD
+Q7STORE,Retail shops: rating 4 or 5,percent,2277,54.6924706364,1857.4451252715,True,valid_Q7STORE
+Q7SIGN,Indoor signs and directions: rating 4 or 5,percent,2648,78.3293198433,2151.2601175581,True,valid_Q7SIGN
+Q7WALKWAY,Walkways and elevators: rating 4 or 5,percent,2537,79.0155835021,2045.0202436183,True,valid_Q7WALKWAY
+Q7SCREENS,Flight information screens: rating 4 or 5,percent,2611,78.6415472283,2121.1046180671,True,valid_Q7SCREENS
+Q7INFODOWN,Information: arrivals: rating 4 or 5,percent,1518,66.9484910174,1227.4793671713,True,valid_Q7INFODOWN
+Q7INFOUP,Information: departures: rating 4 or 5,percent,1529,68.1782687097,1226.7649987494,True,valid_Q7INFOUP
+Q7WIFI,Free Wi-Fi: rating 4 or 5,percent,2074,73.1245694176,1672.3896758162,True,valid_Q7WIFI
+Q7ROADS,Roadway signs: rating 4 or 5,percent,1772,71.8082623104,1431.2056918077,True,valid_Q7ROADS
+Q7PARK,Parking facilities: rating 4 or 5,percent,1065,64.8569772593,837.9032213063,True,valid_Q7PARK
+Q7AIRTRAIN,AirTrain: rating 4 or 5,percent,1309,75.7546035181,1050.6410777638,True,valid_Q7AIRTRAIN
+Q7LTPARKING,Long-term parking shuttle: rating 4 or 5,percent,649,63.2639824699,509.1687328902,True,valid_Q7LTPARKING
+Q7RENTAL,Rental car center: rating 4 or 5,percent,910,65.5284533289,728.9289900695,True,valid_Q7RENTAL
+Q14FIND,Finding the way: rating 4 or 5,percent,2603,86.0373799697,2108.4638656349,True,valid_Q14FIND
+Q14PASSTHRU,Security and screening: rating 4 or 5,percent,2364,75.2842381013,1885.6175599659,True,valid_Q14PASSTHRU
+Q9All,Overall cleanliness: rating 4 or 5,percent,2689,83.5138361919,2171.2852338782,True,valid_Q9All
+theme_directions,Directions and information,percent,369,19.8146547962,292.6940019801,True,problem_reporter
+theme_retail_services,Restaurants and services,percent,369,6.7407021526,292.6940019801,True,problem_reporter
+theme_amenities,Airport amenities,percent,369,7.3572077614,292.6940019801,True,problem_reporter
+theme_security,Security and immigration,percent,369,35.8091900344,292.6940019801,True,problem_reporter
+theme_airlines,Airline experience,percent,369,10.0442524411,292.6940019801,True,problem_reporter
+theme_delays,Gate changes and delays,percent,369,14.4657290311,292.6940019801,True,problem_reporter
+theme_accessibility,Disability assistance,percent,369,2.2341684426,292.6940019801,True,problem_reporter
+theme_other,Other problems,percent,369,3.0495380013,292.6940019801,True,problem_reporter

@@ -1,0 +1,22 @@
+group_column,group,metric,label,unit,n,value,effective_n_kish,weighted,base_flag
+BAREA,A,nps,Net Promoter Score,points,661,27.3097994052,352.4590499535,True,valid_nps
+BAREA,A,overall_top2,Airport overall: rating 4 or 5,percent,648,75.5670259731,360.5752174680,True,valid_Q7ALL
+BAREA,A,problem_rate,Reported a problem,percent,658,19.5264712320,358.2597203756,True,valid_problem
+BAREA,B,nps,Net Promoter Score,points,238,33.5593192318,210.1454779229,True,valid_nps
+BAREA,B,overall_top2,Airport overall: rating 4 or 5,percent,238,76.2513783723,209.5344117392,True,valid_Q7ALL
+BAREA,B,problem_rate,Reported a problem,percent,239,7.7354219728,210.5328807090,True,valid_problem
+BAREA,C,nps,Net Promoter Score,points,189,26.9302423392,188.9814752851,True,valid_nps
+BAREA,C,overall_top2,Airport overall: rating 4 or 5,percent,186,71.9873539502,185.9778874783,True,valid_Q7ALL
+BAREA,C,problem_rate,Reported a problem,percent,186,10.2353899028,185.9778874783,True,valid_problem
+BAREA,D,nps,Net Promoter Score,points,495,38.2981586584,494.7997892807,True,valid_nps
+BAREA,D,overall_top2,Airport overall: rating 4 or 5,percent,491,82.4604148186,490.8030327671,True,valid_Q7ALL
+BAREA,D,problem_rate,Reported a problem,percent,485,14.2698663200,484.8009165186,True,valid_problem
+BAREA,E,nps,Net Promoter Score,points,157,50.9554140127,157.0000000000,True,valid_nps
+BAREA,E,overall_top2,Airport overall: rating 4 or 5,percent,155,85.1612903226,155.0000000000,True,valid_Q7ALL
+BAREA,E,problem_rate,Reported a problem,percent,155,5.1612903226,155.0000000000,True,valid_problem
+BAREA,F,nps,Net Promoter Score,points,407,35.8722358722,407.0000000000,True,valid_nps
+BAREA,F,overall_top2,Airport overall: rating 4 or 5,percent,409,83.8630806846,409.0000000000,True,valid_Q7ALL
+BAREA,F,problem_rate,Reported a problem,percent,406,12.3152709360,406.0000000000,True,valid_problem
+BAREA,G,nps,Net Promoter Score,points,503,34.2810594277,368.4170342237,True,valid_nps
+BAREA,G,overall_top2,Airport overall: rating 4 or 5,percent,498,81.9567693395,363.3399669275,True,valid_Q7ALL
+BAREA,G,problem_rate,Reported a problem,percent,487,13.1850638318,353.8925389211,True,valid_problem

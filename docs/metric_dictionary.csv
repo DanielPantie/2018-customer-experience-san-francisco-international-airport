@@ -1,0 +1,32 @@
+metric,label,valid_base_flag,outcome,unit
+overall_top2,Airport overall: rating 4 or 5,valid_Q7ALL,positive_Q7ALL,percent
+problem_rate,Reported a problem,valid_problem,has_problem,percent
+nps,Net Promoter Score,valid_nps,nps_contribution,points
+promoters,Promoters: recommendation 9-10,valid_nps,is_promoter,percent
+passives,Passives: recommendation 7-8,valid_nps,is_passive,percent
+detractors,Detractors: recommendation 0-6,valid_nps,is_detractor,percent
+Q7ART,Artwork and exhibitions: rating 4 or 5,valid_Q7ART,positive_Q7ART,percent
+Q7FOOD,Restaurants: rating 4 or 5,valid_Q7FOOD,positive_Q7FOOD,percent
+Q7STORE,Retail shops: rating 4 or 5,valid_Q7STORE,positive_Q7STORE,percent
+Q7SIGN,Indoor signs and directions: rating 4 or 5,valid_Q7SIGN,positive_Q7SIGN,percent
+Q7WALKWAY,Walkways and elevators: rating 4 or 5,valid_Q7WALKWAY,positive_Q7WALKWAY,percent
+Q7SCREENS,Flight information screens: rating 4 or 5,valid_Q7SCREENS,positive_Q7SCREENS,percent
+Q7INFODOWN,Information: arrivals: rating 4 or 5,valid_Q7INFODOWN,positive_Q7INFODOWN,percent
+Q7INFOUP,Information: departures: rating 4 or 5,valid_Q7INFOUP,positive_Q7INFOUP,percent
+Q7WIFI,Free Wi-Fi: rating 4 or 5,valid_Q7WIFI,positive_Q7WIFI,percent
+Q7ROADS,Roadway signs: rating 4 or 5,valid_Q7ROADS,positive_Q7ROADS,percent
+Q7PARK,Parking facilities: rating 4 or 5,valid_Q7PARK,positive_Q7PARK,percent
+Q7AIRTRAIN,AirTrain: rating 4 or 5,valid_Q7AIRTRAIN,positive_Q7AIRTRAIN,percent
+Q7LTPARKING,Long-term parking shuttle: rating 4 or 5,valid_Q7LTPARKING,positive_Q7LTPARKING,percent
+Q7RENTAL,Rental car center: rating 4 or 5,valid_Q7RENTAL,positive_Q7RENTAL,percent
+Q14FIND,Finding the way: rating 4 or 5,valid_Q14FIND,positive_Q14FIND,percent
+Q14PASSTHRU,Security and screening: rating 4 or 5,valid_Q14PASSTHRU,positive_Q14PASSTHRU,percent
+Q9All,Overall cleanliness: rating 4 or 5,valid_Q9All,positive_Q9All,percent
+theme_directions,Directions and information,problem_reporter,theme_directions,percent
+theme_retail_services,Restaurants and services,problem_reporter,theme_retail_services,percent
+theme_amenities,Airport amenities,problem_reporter,theme_amenities,percent
+theme_security,Security and immigration,problem_reporter,theme_security,percent
+theme_airlines,Airline experience,problem_reporter,theme_airlines,percent
+theme_delays,Gate changes and delays,problem_reporter,theme_delays,percent
+theme_accessibility,Disability assistance,problem_reporter,theme_accessibility,percent
+theme_other,Other problems,problem_reporter,theme_other,percent
